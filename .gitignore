@@ -1,0 +1,12 @@
+# Python environment
+venv/
+__pycache__/
+*.py[cod]
+
+# YOLOv8 specific
+runs/
+*.onnx
+
+# OS files
+.DS_Store
+Thumbs.db
