@@ -42,6 +42,27 @@ Computer Vision: Deep learning (YOLO / similar object detection model).
 
 Backend: Python / FastAPI .
 
+GuardianEye-AI 
+
+Real-Time Helmet Detection & Traffic Rule Violation System
+Hackathon Project — Computer Vision + Deep Learning
+
+Overview
+
+GuardianEye-AI is a real-time helmet compliance detection system built to identify motorcyclists violating helmet laws using live video feeds. The model processes frames from CCTV/road cameras, detects riders without helmets, and flags violations for downstream action such as logging, alerting, or challan generation.
+
+This project uses a state-of-the-art object detector tuned for helmet/no-helmet classification, optimized for speed and accuracy in traffic scenarios.
+
+---
+
+Features-
+
+Detects motorcycles and riders in video streams  
+Classifies helmet vs. no-helmet status  
+Marks and logs violations with timestamps  
+Outputs cropped violator images for review  
+Real-time performance (~28 FPS on GPU / optimized CPU)  
+
 Real-Time Alerts: messaging APIs, push integrations.
 
 Frontend: Optional dashboard UI for monitoring, logs, and alerts.
