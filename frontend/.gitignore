@@ -1,0 +1,15 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# ML / outputs
+backend/outputs/
+*.pt
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
